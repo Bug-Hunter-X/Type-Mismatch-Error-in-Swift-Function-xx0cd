@@ -1,0 +1,3 @@
+# Type Mismatch Error in Swift Function
+
+This repository demonstrates a common type mismatch error that can occur in Swift functions.  The `calculateArea` function is designed to take two `Double` values as input, but the example shows an attempt to pass a `String` as the `height` argument. This results in a compile-time error because Swift's type system prevents incompatible types from being used together. This example highlights the importance of careful type handling in Swift to ensure code correctness and prevent runtime errors. The solution showcases how to correct the type mismatch error by ensuring all input parameters match the expected type.
